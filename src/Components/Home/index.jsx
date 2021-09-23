@@ -1,7 +1,8 @@
 import React from "react";
-import { Section, FlexibleDiv } from "../Box/style";
+import SideBar from "../Sidebar";
 import { OverFlowScrollBar } from "../OverflowScroll/styles";
 import { HomeWrapper } from "./style";
+import Main from "../Main";
 
 function Home() {
 	return (
@@ -9,26 +10,14 @@ function Home() {
 			<div className="flex">
 				<OverFlowScrollBar>
 					<div className="sideBar" >
-						<h1>Tomisin</h1>
-						<p>
-							Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-							Recusandae, repellat nemo hic, deleniti asperiores, quidem
-							molestiae nihil voluptatibus accusamus quia sed praesentium neque
-							laudantium illum tempora excepturi provident inventore cum.
-						</p>
+					<SideBar/>
 					</div>
 				</OverFlowScrollBar>
-				<OverFlowScrollBar>
+				
 					<div className="main">
-					<h1>Tomisin</h1>
-						<p>
-							Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-							Recusandae, repellat nemo hic, deleniti asperiores, quidem
-							molestiae nihil voluptatibus accusamus quia sed praesentium neque
-							laudantium illum tempora excepturi provident inventore cum.
-						</p>
+					<Main />
 					</div>
-				</OverFlowScrollBar>
+				
 			</div>
 		</HomeWrapper>
 	);

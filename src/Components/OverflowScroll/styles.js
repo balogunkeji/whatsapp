@@ -5,30 +5,31 @@ export const OverFlowScrollBar = styled("div")`
   height: 100%;
 
   div {
-    scrollbar-color: #e3e3e3 transparent;
+    scrollbar-color:  blue;
     scrollbar-width: thin;
 
     &::-webkit-scrollbar {
       width: 5px;
-      height: 5px;
+      height: 2px;
     }
     &::-webkit-scrollbar-button {
       width: 0;
-      height: 0;
+      height: 5px;
     }
     &::-webkit-scrollbar-thumb {
       border-radius: 50px;
-      background: #e3e3e3;
+      background: blue;
+      /* height: 10px; */
     }
     &::-webkit-scrollbar-thumb:active {
       background: #ff6600;
     }
     &::-webkit-scrollbar-track {
-      background: #eff0f5;
+      background: transparent;
       border-radius: 53px;
     }
     &::-webkit-scrollbar-track:hover {
-      background: #eff0f5;
+      background: transparent;
     }
     &::-webkit-scrollbar-track:active {
       background: #e3e3e3;
