@@ -16,7 +16,7 @@ export const SideItems = [
   subtitle: "Folashayo",
   timeStamp: "Sunday",
   pin: <AiFillPushpin/>,
-  messageCount: 0
+  
  },
  {
   image: Whatsapp1,
@@ -24,7 +24,7 @@ export const SideItems = [
   subtitle: "https://jamboard.google.com/d/1O4Mx11YHzkaMWDx",
   timeStamp: "Sunday",
   pin: <AiFillPushpin/>,
-  messageCount: 0
+ 
  },
  {
   image: Whatsapp3,
@@ -45,7 +45,7 @@ export const SideItems = [
   title: "<JavaScriptOverload/>",
   subtitle: "Flutter Developer - Entry Role",
   timeStamp: "15:00",
-  messageCount: 0
+  
  },
  {
   image: Whatsapp6,
@@ -76,15 +76,14 @@ export const SideItems = [
   title: "Kayode",
   subtitle: "I will gist you later",
   timeStamp: "15:00",
-  messageCount: 0
- 
+  
  },
  {
   image: Whatsapp10,
   title: "Sister Debby",
   subtitle: "Yes ma",
   timeStamp: "15:00",
-  messageCount: 0
+ 
  
  },
  {
@@ -93,7 +92,7 @@ export const SideItems = [
   subtitle: "Folashayo",
   timeStamp: "Sunday",
   pin: <AiFillPushpin/>,
-  messageCount: 0
+ 
  },
  {
   image: Whatsapp1,
@@ -101,7 +100,7 @@ export const SideItems = [
   subtitle: "https://jamboard.google.com/d/1O4Mx11YHzkaMWDx",
   timeStamp: "Sunday",
   pin: <AiFillPushpin/>,
-  messageCount: 0
+ 
  },
  {
   image: Whatsapp3,
@@ -129,7 +128,7 @@ export const SideItems = [
   title: "Royalty",
   subtitle: "P+ Measurement to discuss Media Monitoring",
   timeStamp: "15:00",
-  messageCount: 0
+ 
  
  },
  {
@@ -144,7 +143,7 @@ export const SideItems = [
   title: "THE BALOGUN FAMILY👨‍👩‍👧‍👧💞",
   subtitle: "Family Prayer by 10:00pm",
   timeStamp: "15:00",
-  messageCount: 0
+ 
   
  },
  {
@@ -152,7 +151,7 @@ export const SideItems = [
   title: "Kayode",
   subtitle: "I will gist you later",
   timeStamp: "15:00",
-  messageCount: 0
+  
  
  },
  {
@@ -160,7 +159,7 @@ export const SideItems = [
   title: "Sister Debby",
   subtitle: "Yes ma",
   timeStamp: "15:00",
-  messageCount: 0
+  
  
  },
  {
@@ -169,7 +168,7 @@ export const SideItems = [
   subtitle: "Folashayo",
   timeStamp: "Sunday",
   pin: <AiFillPushpin/>,
-  messageCount: 0
+  
  },
  {
   image: Whatsapp1,
@@ -177,7 +176,7 @@ export const SideItems = [
   subtitle: "https://jamboard.google.com/d/1O4Mx11YHzkaMWDx",
   timeStamp: "Sunday",
   pin: <AiFillPushpin/>,
-  messageCount: 0
+  
  },
  {
   image: Whatsapp3,
@@ -198,7 +197,7 @@ export const SideItems = [
   title: "<JavaScriptOverload/>",
   subtitle: "Flutter Developer - Entry Role",
   timeStamp: "15:00",
-  messageCount: 0
+ 
  },
  {
   image: Whatsapp6,
@@ -229,7 +228,7 @@ export const SideItems = [
   title: "Kayode",
   subtitle: "I will gist you later",
   timeStamp: "15:00",
-  messageCount: 0
+  
  
  },
  {
@@ -237,7 +236,7 @@ export const SideItems = [
   title: "Sister Debby",
   subtitle: "Yes ma",
   timeStamp: "15:00",
-  messageCount: 0
+ 
  
  },
  
