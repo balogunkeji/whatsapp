@@ -15,18 +15,23 @@ export const HomeWrapper = styled.section`
    width: 500px;
    max-width: 100%;
    height: 100vh;
-   @media (max-width: 480px){
+   border-right: 1px solid #323739;
+   @media (max-width: 1200px){
+    width: 400px;
+   }
+   @media (max-width: 650px){
     width: 100%;
    }
   }
 
   .main{
-   flex-grow: 1;
-   border-left: 2px solid #30383d;
-   background-color: #262d31;
+   flex: 1;
+   background-color: #0d1418;
    height: 100vh;
-   z-index: 10;
-   @media (max-width: 480px){
+   max-width: 100%;
+   overflow: hidden;
+   border-left: 1px solid #323739;
+   @media (max-width: 650px){
     display: none;
    }
   }

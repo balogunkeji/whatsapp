@@ -20,8 +20,8 @@ export const SideItems = [
  },
  {
   image: Whatsapp1,
-  title: "Dim💞",
-  subtitle: "https://jamboard.google.com/d/1O4Mx11YHzkaMWDx",
+  title: "Dim💕💕",
+  subtitle: "https://jamboard.google.com/d/1O4Mx",
   timeStamp: "Sunday",
   pin: <AiFillPushpin/>,
  
@@ -96,8 +96,8 @@ export const SideItems = [
  },
  {
   image: Whatsapp1,
-  title: "Dim💞",
-  subtitle: "https://jamboard.google.com/d/1O4Mx11YHzkaMWDx",
+  title: "Dim💕💕",
+  subtitle: "https://jamboard.google.com/d/1O4Mx11YH",
   timeStamp: "Sunday",
   pin: <AiFillPushpin/>,
  
@@ -136,7 +136,7 @@ export const SideItems = [
   title: "Young Adult",
   subtitle: "Happy Birthday Brother.",
   timeStamp: "15:00",
-  messageCount: 105
+  messageCount: 10
  },
  {
   image: Whatsapp8,
@@ -172,8 +172,8 @@ export const SideItems = [
  },
  {
   image: Whatsapp1,
-  title: "Dim💞",
-  subtitle: "https://jamboard.google.com/d/1O4Mx11YHzkaMWDx",
+  title: "Dim💕💕",
+  subtitle: "https://jamboard.google.com/d/1O4Mx11",
   timeStamp: "Sunday",
   pin: <AiFillPushpin/>,
   
