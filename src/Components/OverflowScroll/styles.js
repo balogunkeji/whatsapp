@@ -18,11 +18,11 @@ export const OverFlowScrollBar = styled("div")`
     }
     &::-webkit-scrollbar-thumb {
       border-radius: 50px;
-      background: blue;
+      background: #323739;
       /* height: 10px; */
     }
     &::-webkit-scrollbar-thumb:active {
-      background: #ff6600;
+      background: #323739;
     }
     &::-webkit-scrollbar-track {
       background: transparent;
