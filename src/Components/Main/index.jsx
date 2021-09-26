@@ -1,6 +1,6 @@
 import React from "react";
 import { OverFlowScrollBar } from "../OverflowScroll/styles";
-import { FlexibleDiv, Section } from "../Box/style";
+import { Section } from "../Box/style";
 import { MenuWrapper } from "./style";
 import Whatsapp1 from "../../assets/images/whatsapp5.jpg";
 import { BiSearch } from "react-icons/bi";
@@ -27,10 +27,10 @@ function Main() {
 				<Section className="menu-content">
 					<OverFlowScrollBar>
 						<div className="body-with-scroll">
-							<div>
+							<div className="flex">
 								Hello
 							</div>
-							<div>
+							<div className="flex1">
 								hello
 							</div>
 						</div>
