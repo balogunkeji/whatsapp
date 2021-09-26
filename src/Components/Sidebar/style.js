@@ -96,6 +96,9 @@ export const SideBarWrapper = styled.div`
 				@media (max-width: 1200px) {
 					padding: 140px 15px 30px 15px;
 				}
+				@media (max-width: 744px) {
+					padding: 140px 10px 30px 10px;
+				}
 				.messageWrapper {
 					display: flex;
 					flex-direction: row;
