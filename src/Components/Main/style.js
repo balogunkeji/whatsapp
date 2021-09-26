@@ -3,10 +3,12 @@ export const MenuWrapper = styled.div`
 	position: relative;
 
 	img {
-		border-radius: 55%;
-		width: 55px;
-		height: 55px;
-		display: block;
+		border-radius: 50%;
+		width: 50px;
+		height: 50px;
+		align-self: center;
+		/* display: block;
+		margin: 0 auto; */
 	}
 
 	svg {
@@ -40,10 +42,22 @@ export const MenuWrapper = styled.div`
 				max-width: 100%;
 				margin: 0 10px;
 				@media (max-width: 1300px) {
-							width: 60%;
+							width: 63%;
 						}
-						@media (max-width: 1000px) {
+						@media (max-width: 1100px) {
+							width: 58%;
+						}
+						@media (max-width: 975px) {
 							width: 55%;
+						}
+						@media (max-width: 920px) {
+							width: 52%;
+						}
+						@media (max-width: 880px) {
+							width: 50%;
+						}
+						@media (max-width: 850px){
+							width: 45%;
 						}
 				.flex {
 					h4 {
@@ -67,21 +81,39 @@ export const MenuWrapper = styled.div`
 			height: 63px;
 			max-width: 100%;
 			overflow: hidden;
+			display: flex;
+			align-items: center;
 			.footer-flex {
 				display: flex;
 				justify-content: space-between;
 				align-items: center;
-				width: 65%;
+				width: 67%;
 				max-width: 100%;
 				margin: 15px 10px 0 10px;
-				border: 1px solid red;
+			
 				@media (max-width: 1200px) {
-							width: 60%;
+							width: 63%;
 						}
-						@media (max-width: 1000px) {
+						@media (max-width: 1100px) {
+							width: 58%;
+						}
+						@media (max-width: 975px) {
 							width: 55%;
 						}
+						@media (max-width: 920px) {
+							width: 52%;
+						}
+						@media (max-width: 880px) {
+							width: 50%;
+						}
+						@media (max-width: 850px){
+							width: 45%;
+						}
+						@media (max-width: 800px){
+							width: 39%;
+						}
 				.search {
+					margin: 0 auto;
 					.input {
 					
 						display: flex;
@@ -94,13 +126,26 @@ export const MenuWrapper = styled.div`
 						max-width: 100%;
 						padding: 0 20px;
 						@media (max-width: 1200px) {
-							width: 550px;
+							width: 530px;
 						}
-						@media (max-width: 1000px) {
-							width: 380px;
+						@media (max-width: 1100px) {
+							width: 420px;
 						}
-						@media (max-width: 480px) {
+						@media (max-width: 980px) {
+							width: 350px;
+						}
+						
+						@media (max-width: 920px) {
+							width: 320px;
+						}
+						@media (max-width: 880px) {
 							width: 300px;
+						}
+						@media (max-width: 850px){
+							width: 250px;
+						}
+						@media (max-width: 750px){
+							width: 190px;
 						}
 						div {
 							display: flex;

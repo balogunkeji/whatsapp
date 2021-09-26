@@ -23,7 +23,7 @@ export const SideBarWrapper = styled.div`
 			@media (max-width: 1200px) {
 				width: 400px;
 			}
-			@media (max-width: 650px) {
+			@media (max-width: 744px) {
 				width: 100%;
 			}
 			.head {
@@ -67,8 +67,8 @@ export const SideBarWrapper = styled.div`
 					@media (max-width: 1200px) {
 						width: 320px;
 					}
-					@media (max-width: 650px) {
-						width: 530px;
+					@media (max-width: 744px) {
+						width: 600px;
 					}
 					@media (max-width: 480px) {
 						width: 300px;

@@ -19,7 +19,7 @@ export const HomeWrapper = styled.section`
    @media (max-width: 1200px){
     width: 400px;
    }
-   @media (max-width: 650px){
+   @media (max-width: 744px){
     width: 100%;
    }
   }
@@ -31,7 +31,7 @@ export const HomeWrapper = styled.section`
    max-width: 100%;
    overflow: hidden;
    border-left: 1px solid #323739;
-   @media (max-width: 650px){
+   @media (max-width: 744px){
     display: none;
    }
   }
