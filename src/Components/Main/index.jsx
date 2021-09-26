@@ -26,7 +26,14 @@ function Main() {
 
 				<Section className="menu-content">
 					<OverFlowScrollBar>
-						<div className="body-with-scroll"></div>
+						<div className="body-with-scroll">
+							<div>
+								Hello
+							</div>
+							<div>
+								hello
+							</div>
+						</div>
 					</OverFlowScrollBar>
 				</Section>
 
