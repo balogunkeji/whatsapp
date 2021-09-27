@@ -3,9 +3,9 @@ export const SideBarWrapper = styled.div`
 	position: relative;
 
 	img {
-		border-radius: 55%;
-		width: 55px;
-		height: 55px;
+		border-radius: 50%;
+		width: 50px;
+		height: 50px;
 		display: block;
 	}
 
@@ -15,13 +15,13 @@ export const SideBarWrapper = styled.div`
 		.header {
 			position: fixed;
 			background-color: #131c21;
-			width: 500px;
+			width: 388px;
 			height: 120px;
 			max-width: 100%;
 			top: 0;
-			border-bottom: 1px solid #323739;
+			border-bottom: 1px solid #2d3134;
 			@media (max-width: 1200px) {
-				width: 400px;
+				width: 366px;
 			}
 			@media (max-width: 744px) {
 				width: 100%;
@@ -61,18 +61,18 @@ export const SideBarWrapper = styled.div`
 					background-color: #323739;
 					height: 40px;
 					border-radius: 20px;
-					width: 430px;
+					width: 300px;
 					max-width: 100%;
 					padding: 0 20px;
-					@media (max-width: 1200px) {
-						width: 320px;
-					}
-					@media (max-width: 744px) {
-						width: 600px;
-					}
-					@media (max-width: 480px) {
-						width: 300px;
-					}
+					@media (max-width: 1000px) {
+				width: 270px;
+				}
+				@media (max-width: 744px) {
+				width: 500px;
+				}
+				@media (max-width: 480px) {
+				width: 270px;
+				}
 					div {
 						display: flex;
 						input {
@@ -92,19 +92,26 @@ export const SideBarWrapper = styled.div`
 			overflow-y: auto;
 			background-color: #131c21;
 			.body {
-				padding: 140px 15px 30px 20px;
+				padding: 120px 0 30px 0;
 				@media (max-width: 1200px) {
-					padding: 140px 15px 30px 15px;
+					padding: 120px 0 30px 0;
 				}
 				@media (max-width: 744px) {
-					padding: 140px 10px 30px 10px;
+					padding: 120px 0 30px 0;
 				}
+			
 				.messageWrapper {
 					display: flex;
+					width: 100%;
 					flex-direction: row;
 					height: 73px;
 					letter-spacing: 1;
-
+					transition: all ease .3s;
+				padding: 0 10px 0 0;
+				cursor: pointer;
+				.img{
+						margin-left: 8px;
+					}
 					.messageContent {
 						display: flex;
 						flex-basis: auto;
@@ -112,8 +119,8 @@ export const SideBarWrapper = styled.div`
 						flex-grow: 1;
 						justify-content: center;
 						min-width: 0;
-						border-bottom: 1px solid #323739;
-						margin-left: 15px;
+						border-bottom: 1px solid #2d3134;
+						padding: 0 10px;
 						@media (max-width: 1200px) {
 							margin-left: 10px;
 						}
@@ -130,6 +137,9 @@ export const SideBarWrapper = styled.div`
 							color: #f9f9fce6;
 						}
 					}
+					&:hover{
+				background-color: #2d3134;
+				}
 				}
 			}
 		}
