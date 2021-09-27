@@ -1,5 +1,4 @@
 import styled from "styled-components";
-import img from "../../assets/images/what.png"
 export const MenuWrapper = styled.div`
 	position: relative;
 
