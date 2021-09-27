@@ -163,7 +163,13 @@ export const MenuWrapper = styled.div`
 	.body-with-scroll {
 		height: 100%;
 		overflow-y: scroll;
-		padding: 70px 20px;
+		padding: 90px 100px;
+		@media (max-width: 1200px){
+			padding: 90px 25px;
+		}
+		@media (max-width: 900px){
+			padding: 90px 20px;
+		}
 		.flex{
 			display: flex;
 			flex-direction: column;

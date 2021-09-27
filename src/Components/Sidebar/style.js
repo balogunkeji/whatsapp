@@ -15,7 +15,7 @@ export const SideBarWrapper = styled.div`
 		.header {
 			position: fixed;
 			background-color: #131c21;
-			width: 388px;
+			width: 380px;
 			height: 120px;
 			max-width: 100%;
 			top: 0;
