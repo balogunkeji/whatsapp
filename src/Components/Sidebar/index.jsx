@@ -43,35 +43,39 @@ function SideBar() {
 												style={{ margin: "10px 0" }}
 											/>
 										</div>
-									
-                    <div justifyContent="" className="messageContent">
+
+										<div justifyContent="" className="messageContent">
 											<div className="messageBody">
-                        <h4>{item.title}</h4>
-                        <p>{item.timeStamp}</p>
-                      </div>
-                      <div className="messageBody">
-                        <p>{item.subtitle}</p>
-                        <span className="span"
-                        style={{
-													backgroundColor: item.messageCount
-														? "#009688"
-														: item.pin
-														? "grey"
-														: "transparent",
-													borderRadius: "20px",
-													width: "15px",
-													height: "15px",
-													textAlign: "center",
-													padding: "5px",
-													fontSize: "12px",
-                          color: item.messageCount ? "#f9f9fce6" : item.pin ? "#333333e6" : "transparent"
-												}}>
-												{<span>{item.pin || item.messageCount}</span>}
-                        </span>
-                      </div>
+												<h4>{item.title}</h4>
+												<p>{item.timeStamp}</p>
+											</div>
+											<div className="messageBody">
+												<p>{item.subtitle}</p>
+												<span
+													className="span"
+													style={{
+														backgroundColor: item.messageCount
+															? "#009688"
+															: item.pin
+															? "grey"
+															: "transparent",
+														borderRadius: "20px",
+														width: "15px",
+														height: "15px",
+														textAlign: "center",
+														padding: "5px",
+														fontSize: "12px",
+														color: item.messageCount
+															? "#f9f9fce6"
+															: item.pin
+															? "#333333e6"
+															: "transparent",
+													}}>
+													{<span>{item.pin || item.messageCount}</span>}
+												</span>
+											</div>
 										</div>
-										</div>
-									
+									</div>
 								))}
 							</div>
 						</div>

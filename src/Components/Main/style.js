@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import img from "../../assets/images/what.png"
 export const MenuWrapper = styled.div`
 	position: relative;
 
@@ -7,8 +8,6 @@ export const MenuWrapper = styled.div`
 		width: 50px;
 		height: 50px;
 		align-self: center;
-		/* display: block;
-		margin: 0 auto; */
 	}
 
 	svg {
@@ -27,7 +26,7 @@ export const MenuWrapper = styled.div`
 			position: fixed;
 			background-color: #2a2f32;
 			width: 100%;
-			height: 63px;
+			height: 59px;
 			max-width: 100%;
 			overflow: hidden;
 		}
@@ -38,28 +37,30 @@ export const MenuWrapper = styled.div`
 				display: flex;
 				align-items: center;
 				justify-content: space-between;
-				width: 65%;
+				width: 1150px;
 				max-width: 100%;
-				margin: 0 10px;
+				margin: 5px 20px;
+				@media (max-width: 1500px){
+					width: 980px;
+				}
 				@media (max-width: 1300px) {
-							width: 63%;
+							width: 67%;
 						}
 						@media (max-width: 1100px) {
-							width: 58%;
+							width: 60%;
 						}
 						@media (max-width: 975px) {
 							width: 55%;
 						}
 						@media (max-width: 920px) {
-							width: 52%;
+							width: 53%;
 						}
-						@media (max-width: 880px) {
-							width: 50%;
+					 @media (max-width: 772px){
+							width: 48%;
 						}
-						@media (max-width: 850px){
-							width: 45%;
-						}
+					
 				.flex {
+					
 					h4 {
 						align-self: center;
 						margin-left: 10px;
@@ -85,17 +86,19 @@ export const MenuWrapper = styled.div`
 			align-items: center;
 			.footer-flex {
 				display: flex;
-				justify-content: space-between;
 				align-items: center;
-				width: 67%;
+				/* justify-content: space-between; */
+				width: 1150px;
 				max-width: 100%;
-				margin: 15px 10px 0 10px;
-			
-				@media (max-width: 1200px) {
-							width: 63%;
+				margin:  10px;
+				@media (max-width: 1500px){
+					width: 980px;
+				}
+				@media (max-width: 1300px) {
+							width: 67%;
 						}
 						@media (max-width: 1100px) {
-							width: 58%;
+							width: 60%;
 						}
 						@media (max-width: 975px) {
 							width: 55%;
@@ -106,12 +109,7 @@ export const MenuWrapper = styled.div`
 						@media (max-width: 880px) {
 							width: 50%;
 						}
-						@media (max-width: 850px){
-							width: 45%;
-						}
-						@media (max-width: 800px){
-							width: 39%;
-						}
+						
 				.search {
 					margin: 0 auto;
 					.input {
@@ -125,8 +123,8 @@ export const MenuWrapper = styled.div`
 						width: 700px;
 						max-width: 100%;
 						padding: 0 20px;
-						@media (max-width: 1200px) {
-							width: 530px;
+						@media (max-width: 1500px) {
+							width: 500px;
 						}
 						@media (max-width: 1100px) {
 							width: 420px;
@@ -166,5 +164,34 @@ export const MenuWrapper = styled.div`
 	.body-with-scroll {
 		height: 100%;
 		overflow-y: scroll;
+		padding: 70px 20px;
+		.flex{
+			display: flex;
+			flex-direction: column;
+			p{
+				background-color:#262d31;
+				margin-top: 5px;
+				width: fit-content;
+				max-width: 100%;
+				padding: 10px 12px;
+				border-radius: 10px;
+			}
+		}
+		.flex1{
+			display: flex;
+			flex-direction: column;
+			align-items: flex-end;
+
+			p{
+				background-color:#056162;
+				margin-top: 5px;
+				max-width: 100%;
+				padding: 10px;
+				width: fit-content;
+				
+				padding: 10px 12px;
+				border-radius: 10px;
+			}
+		}
 	}
 `;

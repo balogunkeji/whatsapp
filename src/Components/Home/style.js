@@ -1,7 +1,7 @@
 import styled from "styled-components";
  
 export const HomeWrapper = styled.section`
- width: 100%;
+
  max-width: 100%;
  height: fit-content;
  position: relative;
@@ -25,9 +25,10 @@ export const HomeWrapper = styled.section`
   }
 
   .main{
-   flex: 1;
+   flex-grow: 1;
    background-color: #0d1418;
-   height: 100vh;
+   width: 100%;
+   height: 100%;
    max-width: 100%;
    overflow: hidden;
    border-left: 1px solid #323739;

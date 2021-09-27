@@ -28,10 +28,12 @@ function Main() {
 					<OverFlowScrollBar>
 						<div className="body-with-scroll">
 							<div className="flex">
-								Hello
+								<p>Hey!</p>
+								<p>Can you please help out?</p>
 							</div>
 							<div className="flex1">
-								hello
+							<p>Yea,sure</p>
+							<p>and how may I help you</p>
 							</div>
 						</div>
 					</OverFlowScrollBar>
